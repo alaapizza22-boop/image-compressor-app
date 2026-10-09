@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ضاغط الصور</string>
+
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_account">الحساب</string>
+
+    <string name="home_title">اضغط صورك</string>
+    <string name="home_subtitle">قلّل حجم الملف مع الحفاظ على جودة ممتازة</string>
+    <string name="select_images">اختر الصور</string>
+    <string name="select_single_image">اختر صورة واحدة</string>
+    <string name="select_multiple_images">اختر عدة صور (ضغط دفعي)</string>
+    <string name="quality_label">الجودة: %1$d%%</string>
+    <string name="resize_label">تغيير الحجم</string>
+    <string name="keep_original_dimensions">الحفاظ على الأبعاد الأصلية</string>
+    <string name="custom_max_dimension">أقصى بعد مخصص (بكسل)</string>
+    <string name="compress_button">ضغط</string>
+    <string name="compress_all_button">ضغط الكل (%1$d)</string>
+    <string name="original_size">الحجم الأصلي: %1$s</string>
+    <string name="compressed_size">بعد الضغط: %1$s</string>
+    <string name="saved_percent">تم توفير %1$d%%</string>
+    <string name="save_button">حفظ في الجهاز</string>
+    <string name="share_button">مشاركة</string>
+    <string name="clear_button">مسح</string>
+    <string name="compressing">جارٍ الضغط…</string>
+    <string name="compression_complete">اكتمل الضغط</string>
+    <string name="no_images_selected">لم يتم اختيار صور بعد</string>
+    <string name="preview_title">معاينة</string>
+
+    <string name="history_title">سجل الضغط</string>
+    <string name="history_empty">لا يوجد سجل ضغط بعد</string>
+    <string name="history_delete">حذف</string>
+    <string name="history_clear_all">مسح كل السجل</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_default_quality">الجودة الافتراضية</string>
+
+    <string name="account_title">الحساب</string>
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="register_title">إنشاء حساب</string>
+    <string name="forgot_password_title">إعادة تعيين كلمة المرور</string>
+    <string name="email_label">البريد الإلكتروني</string>
+    <string name="password_label">كلمة المرور</string>
+    <string name="confirm_password_label">تأكيد كلمة المرور</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="register_button">إنشاء حساب</string>
+    <string name="reset_password_button">إرسال رابط إعادة التعيين</string>
+    <string name="forgot_password_link">نسيت كلمة المرور؟</string>
+    <string name="no_account_link">ليس لديك حساب؟ أنشئ حسابًا</string>
+    <string name="have_account_link">لديك حساب بالفعل؟ سجّل الدخول</string>
+    <string name="skip_login">المتابعة بدون حساب</string>
+    <string name="logout_button">تسجيل الخروج</string>
+    <string name="signed_in_as">مسجل الدخول باسم %1$s</string>
+    <string name="guest_mode">وضع الضيف (سجل محلي فقط)</string>
+    <string name="reset_email_sent">تم إرسال رابط إعادة تعيين كلمة المرور. تحقق من بريدك.</string>
+    <string name="auth_error_generic">حدث خطأ ما. حاول مرة أخرى.</string>
+
+    <string name="permission_needed">الإذن مطلوب للوصول إلى صورك</string>
+    <string name="grant_permission">منح الإذن</string>
+</resources>

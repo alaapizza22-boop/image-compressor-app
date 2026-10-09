@@ -1,0 +1,20 @@
+{
+  "_comment": "This is a PLACEHOLDER. Download your real google-services.json from the Firebase console (Project settings > Your apps > Android app) and save it as 'app/google-services.json'. It must match applicationId 'com.imagecompressor.app'. Do not commit real Firebase credentials to a public repository.",
+  "project_info": {
+    "project_number": "000000000000",
+    "project_id": "your-firebase-project-id",
+    "storage_bucket": "your-firebase-project-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:0000000000000000000000",
+        "android_client_info": { "package_name": "com.imagecompressor.app" }
+      },
+      "oauth_client": [],
+      "api_key": [{ "current_key": "REPLACE_ME" }],
+      "services": { "appinvite_service": { "other_platform_oauth_client": [] } }
+    }
+  ],
+  "configuration_version": "1"
+}

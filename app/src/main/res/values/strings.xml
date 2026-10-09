@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Image Compressor</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_account">Account</string>
+
+    <string name="home_title">Compress your images</string>
+    <string name="home_subtitle">Reduce file size while keeping great quality</string>
+    <string name="select_images">Select images</string>
+    <string name="select_single_image">Select one image</string>
+    <string name="select_multiple_images">Select multiple images (batch)</string>
+    <string name="quality_label">Quality: %1$d%%</string>
+    <string name="resize_label">Resize</string>
+    <string name="keep_original_dimensions">Keep original dimensions</string>
+    <string name="custom_max_dimension">Custom maximum dimension (px)</string>
+    <string name="compress_button">Compress</string>
+    <string name="compress_all_button">Compress all (%1$d)</string>
+    <string name="original_size">Original: %1$s</string>
+    <string name="compressed_size">Compressed: %1$s</string>
+    <string name="saved_percent">Saved %1$d%%</string>
+    <string name="save_button">Save to device</string>
+    <string name="share_button">Share</string>
+    <string name="clear_button">Clear</string>
+    <string name="compressing">Compressing…</string>
+    <string name="compression_complete">Compression complete</string>
+    <string name="no_images_selected">No images selected yet</string>
+    <string name="preview_title">Preview</string>
+
+    <string name="history_title">Compression history</string>
+    <string name="history_empty">No compression history yet</string>
+    <string name="history_delete">Delete</string>
+    <string name="history_clear_all">Clear all history</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_default_quality">Default quality</string>
+
+    <string name="account_title">Account</string>
+    <string name="login_title">Log in</string>
+    <string name="register_title">Create account</string>
+    <string name="forgot_password_title">Reset password</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm password</string>
+    <string name="login_button">Log in</string>
+    <string name="register_button">Create account</string>
+    <string name="reset_password_button">Send reset link</string>
+    <string name="forgot_password_link">Forgot password?</string>
+    <string name="no_account_link">Don\'t have an account? Register</string>
+    <string name="have_account_link">Already have an account? Log in</string>
+    <string name="skip_login">Continue without an account</string>
+    <string name="logout_button">Log out</string>
+    <string name="signed_in_as">Signed in as %1$s</string>
+    <string name="guest_mode">Guest mode (local history only)</string>
+    <string name="reset_email_sent">Password reset email sent. Check your inbox.</string>
+    <string name="auth_error_generic">Something went wrong. Please try again.</string>
+
+    <string name="permission_needed">Permission needed to access your photos</string>
+    <string name="grant_permission">Grant permission</string>
+</resources>
