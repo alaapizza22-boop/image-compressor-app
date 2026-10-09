@@ -91,7 +91,7 @@ dependencies {
     // Room (compression history persistence)
     implementation("androidx.room:room-runtime:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
-    kapt("androidx.room:room-compiler:2.6.1")
+   implementation("androidx.room:room-compiler:2.6.1")
 
     // DataStore (settings: language, default quality)
     implementation("androidx.datastore:datastore-preferences:1.1.1")
