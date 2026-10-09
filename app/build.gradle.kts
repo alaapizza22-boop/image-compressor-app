@@ -67,4 +67,9 @@ dependencies {
 
     // EXIF
     implementation("androidx.exifinterface:exifinterface:1.3.7")
+
+    // حل مشكلة التكرار في annotations
+    configurations.all {
+        exclude(group = "com.intellij", module = "annotations")
+    }
 }
