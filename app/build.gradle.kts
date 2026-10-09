@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.devtools.ksp") version "1.9.22-1.0.17"
 }
 
 android {
@@ -57,19 +58,12 @@ dependencies {
 
     implementation("androidx.navigation:navigation-compose:2.7.7")
 
-    // Room
+    // Room المعالجة الصحيحة
     implementation("androidx.room:room-runtime:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
-    implementation("androidx.room:room-compiler:2.6.1")
+    ksp("androidx.room:room-compiler:2.6.1")
 
-    // DataStore
+    // DataStore & EXIF
     implementation("androidx.datastore:datastore-preferences:1.1.1")
-
-    // EXIF
     implementation("androidx.exifinterface:exifinterface:1.3.7")
-
-    // حل مشكلة التكرار في annotations
-    configurations.all {
-        exclude(group = "com.intellij", module = "annotations")
-    }
 }
